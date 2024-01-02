@@ -6,6 +6,8 @@ Este repositorio es donde se almacenarán ejercicios con PHP y documentos de cla
 
 El repositorio contendrá:
 
-- Ejercicios :pencil2:
-- Documentos de clase, presentaciones o guías de estudio :book:
-- Cualquier otro recurso :rocket:
+- Ejercicios de clase o de cursos :pencil2: 
+
+## Herramientas utilizadas
+
+-  Wamp64, PHP Storm, Apache Netbeans.
