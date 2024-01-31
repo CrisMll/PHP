@@ -42,8 +42,6 @@ while ($contador < count($numeros)) {
     $contador++;
 }
 */
-=======
-<?PHP
 
 // ## BUSCAR SI EXISTE NUMERO EN UN ARRAY Y MOSTRAR POSICIÓN
 
@@ -86,5 +84,5 @@ while ($contador < count($numeros)) {
     $contador++;
 }
 */
->>>>>>> a791fe10d1b007199bbf9369bca2c4dde9aa5de0
+
 ?>
