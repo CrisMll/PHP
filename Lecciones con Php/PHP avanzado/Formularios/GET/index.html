@@ -1,0 +1,23 @@
+<!--Los formularios permiten recibir información del usuario. Utilizar GET es inseguro puesto que los datos son visibles y modificables desde url-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Formularios con PHP y HTML</title>
+</head>
+
+<body>
+    <h1>Formulario de prueba</h1>
+    <!--no se pretende estilar con css esta practica-->
+    <form action="guardar.php" method="GET" enctype="multipart/form-data">
+        
+        <p><label for="titulo">Título: </label></p>
+        <input type="text" name="titulo" id="titulo">
+        <p><label for="desc">Descripción: </label></p>
+        <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+        <p><button type="submit">Enviar</button></p>
+    </form>
+</body>
+
+</html>
