@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio calculadora por formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="calculadora">
+        <h1>Calculadora con PHP</h1>
+        <form class="formulario" action="calculadora.php" method="post">
+            <label for="num1"> Número 1: </label>
+            <input class="numeros" type="text" id="num1" name="num1">
+            <label for="num2"> Número 2: </label>
+            <input class="numeros" type="text" id="num2" name="num2">
+            <button type="submit" id="suma" name="suma">Sumar</button>
+            <button type="submit" id="resta" name="resta">Restar</button>
+            <button type="submit" id="multiplicar" name="multiplicar">Multiplicar</button>
+            <button type="submit" id="dividir" name="dividir">Dividir</button>
+        </form>
+    </section>
+
+    <?php
+    require 'calculadora.php';
+    ?>
+</body>
+</html>
